@@ -11,6 +11,7 @@ namespace conversions
             {
                 new Xml(),
                 new Json(),
+                new JsonSimple(),
                 new JsonNet(),
                 new Csv(),
                 new Yaml(),

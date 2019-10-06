@@ -25,4 +25,17 @@ namespace conversions
             Console.WriteLine(json);
         }
     }
+    
+        public class JsonSimple : IRun
+        {
+            public string Name => "System.Text.Json Simple";
+            
+            public Task RunAsync<T>(T input)
+            {
+                var result = JsonSerializer.Serialize( input);
+                Console.WriteLine(result);
+
+                return Task.CompletedTask;
+            }
+        }
 }
