@@ -6,3 +6,5 @@ A companion project to the blog post found on https://khalidabuhakmeh.com/conver
 
 This runs on .NET Core as a console application. Get .NET Core from
 going to https://dot.net.
+
+Remember to #Hacktoberfest
